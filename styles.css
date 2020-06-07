@@ -217,25 +217,7 @@ font-size: 15px;
     margin-top: 10px; 
 }
 
-footer nav li{
-    list-style: none;
-    display: inline-block;
-}
-footer{
-   text-align: center;
-   background: linear-gradient(10deg, rgba(199, 148, 249,.04) 0%,rgba(47, 22, 51,.02) 60%);
-   padding: 20px 0 ;
-}
-footer a:link {
- color:black;
- text-decoration: none;
-}
-footer li.foot-logos img{
-   width: 32px;
-   height: 32px;
-   margin: 0 5px;
 
-}
 /* card styles */
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Rubik:400,900);
@@ -394,6 +376,28 @@ color: #fff;
 }
 
 /* contact form ends */
+/* footer starts */
+footer nav li{
+    list-style: none;
+    display: inline-block;
+}
+footer{
+   text-align: center;
+   background: linear-gradient(10deg, rgba(199, 148, 249,.04) 0%,rgba(47, 22, 51,.02) 60%);
+   padding: 20px 0 ;
+   /* background-color: #d5e1e8; */
+}
+footer a:link {
+ color:black;
+ text-decoration: none;
+}
+footer li.foot-logos img{
+   width: 32px;
+   height: 32px;
+   margin: 0 5px;
+
+}
+/* footer ends */
 /* medai queries */
 @media only screen and (max-width: 640px){
     .sliding-box{
@@ -410,17 +414,7 @@ color: #fff;
     #who-box button{
         margin-top: 22%;
     }
-    /* header{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    header div, header nav{
-        margin:0;
-}
-    header #logo{
-    margin: 0 auto; 
-}*/
+
     #rel-contain{
     overflow: hidden;
     width: 100%;
