@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Dosis', sans-serif;
+}
+header{
+    padding: 20px 0;
+    background-color:rgba(255,255,255, 0.01);
+    margin-top: 0;
+    position:fixed;
+    z-index: 9999;
+    width: 100%;
+}
+header #logo{
+    display: inline-block;
+    margin-left:40px;
+}
+header #logo img{
+    height: 4em;
+    float: left;
+}
+header nav, header h2 {
+    display: inline-block;
+float: right;
+margin-top: 5px;
+margin-right: 1.5em;
+padding: 0 2em 0 1em;
+font-weight: bolder;
+}
+header nav ul{
+    margin-top: 15px;
+}
+header h2{
+    margin-top: 0.7em;
+    letter-spacing: 0.3em;
+    /* color:#8780bb; */
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+header nav li{
+    display:inline-block;
+    margin: 0 1.3em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+header nav a:link, header nav a:visited{
+    
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.2em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+header nav a:hover{
+   color:rgb(47, 22, 51);
+}
+#clearfix{
+    clear: both;
+}
+
+
+
+.sliding-box{
+    /* top: 1em; */
+    background-position: 0px 0;
+    height: 600px;
+    background: url('./images/carol.jpg');
+    position: relative;
+    
+}
+.fixed-box{
+    display: none;
+}
+
+#who-box{
+    background-image: url('./images/3132.jpg');
+    background-position: bottom left;
+    height: 400px;
+    text-align: center;
+}
+#who-box button{
+margin-top: 15%;
+padding: 1.2em 3.2em;
+font-weight: bolder;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+background-color: #a2a2a2;
+border: 2px #a2a2a2 solid;
+color: #fff;
+font-size: 15px;
+}
+#who-box button:hover{
+    background-color:rgba(162, 162, 162, 0.6);
+}
+#how-box img{
+    margin: 0 auto;
+    width: 100%;
+    background-size: contain; 
+    margin-top: 10px; 
+}
+
+footer nav li{
+    list-style: none;
+    display: inline-block;
+}
+footer{
+   text-align: center;
+   background: linear-gradient(10deg, rgba(199, 148, 249,.04) 0%,rgba(47, 22, 51,.02) 60%);
+   padding: 20px 0 ;
+}
+footer a:link {
+ color:black;
+ text-decoration: none;
+}
+footer li.foot-logos img{
+   width: 32px;
+   height: 32px;
+   margin: 0 5px;
+
+}
+/* card styles */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Rubik:400,900);
+
+*{box-sizing: border-box;}
+
+#rel-contain {
+   background: linear-gradient(#f6f7fc 0%, #d5e1e8 40%);
+   transform-style: preserve-3d;
+   transform: perspective(800px);
+   position: relative;
+   height: 100%;
+   margin-bottom: 1em;
+   width: 100%;
+}
+
+#card-container{
+   width: 700px;
+   height: 350px;
+   position:absolute;
+   top: 50%; left: 50%;
+   margin: -175px 0 0 -350px;
+}
+#card{
+   animation: backAn 60s infinite;
+   color:#fff;
+   padding:30px;
+   width:100%;
+   height:100%;
+   position:absolute;
+   z-index:1;
+ background:url('./images/card_background.jpg') 100% bottom;
+   box-shadow: 
+     0px 45px 100px rgba(0, 0, 0, .4),
+     inset 0 0 0 1000px rgba(156,27,27,.6);
+}
+
+#card .text-block{position:relative;z-index:2;text-shadow: 0px 3px 10px rgba(0, 0, 0, .7)}
+#card .text-block h1{ font-size:2em;letter-spacing: 0.2em; margin:0; text-transform:uppercase; font-weight:700;}
+#card .text-block h3{margin:0;font-weight:700;letter-spacing: 0.2em;}
+#card .text-block p{font-weight:300; width:60%; margin-top: 0.4em;}
+#card .text-block button{transition: all .35s cubic-bezier(.37,.26,.35,1);border:4px solid #fff; padding:10px; background:transparent;font-family: 'Rubik', sans-serif;text-transform:uppercase; font-weight:700; cursor:pointer;}
+#card .text-block button:hover{background:#B51D2A}
+
+#card-container .pg{position:absolute;height:450px; width:40%; right:-10px;bottom:0px;z-index:222}
+#card-container .pg > img{height:450px;}
+
+.shine {
+position: absolute;
+top: 0; left: 0; right: 0; bottom: 0;
+/* background: linear-gradient(90deg, rgba(0,0,0,.4) 0%,rgba(0,0,0,.2) 60%); */
+background:linear-gradient(10deg, rgba(199, 148, 249,.04) 0%,rgba(47, 22, 51,.02) 60%);
+z-index: 1;
+}
+
+
+@keyframes backAn {
+  0%   { background-size:100% }
+  50%   { background-size:250% }
+  100%   { background-size:100% }
+}
+
+/* card styles end */
+/* contact form starts */
+.contact-container{
+    max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+#contact {
+	background:#d5e1e8;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+    font-weight: 400;
+    margin:5px 0 15px;
+}
+
+#contact h4 {
+	
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	margin:0 0 5px;
+	padding:10px;
+    font-size:15px;
+    background-color: #a2a2a2;
+border: 2px #a2a2a2 solid;
+color: #fff;
+}
+
+#contact button[type="submit"]:hover {
+	background: rgba(162, 162, 162, 0.6);
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+/* contact form ends */
+/* medai queries */
+@media only screen and (max-width: 640px){
+    .sliding-box{
+        display: none;
+    }
+    .fixed-box{
+        display: block;
+        overflow: hidden;
+       
+    }
+    #who-box{
+        height: 200px;
+    }
+    #who-box button{
+        margin-top: 50px;
+    }
+    header{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header div, header nav{
+        margin:0;
+}
+    header #logo{
+    margin: 0 auto;
+}
+    #rel-contain{
+    overflow: hidden;
+    width: 100%;
+    max-width: 500px;
+
+}
+    /* #card-container{
+    
+} */
+.pg{
+    top:50%;
+    left:-30px;
+   
+    /* display: none; */
+}
+.pg img{
+    height: 100px;
+}
+.text-block{
+    left: 28%;
+}
+}
