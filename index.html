@@ -1,0 +1,108 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+    <title>Versatile Pictures</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="./images/logo.png">
+            <h2>Versatile Pictures</h2>
+        </div>
+
+        <nav>
+            <ul>
+                <li id="home-icon" class="header-icons"><a href="#"><strong>Home</strong></a></li>
+                <li id="about-icon" class="header-icons"><a href="#rel-contain"><strong>About</strong></a></li>
+                <li id="contact-icon" class="header-icons"><a href="#contact-box"><strong>Contact</strong></a></li>
+            </ul>
+        </nav>
+        <div id="clearfix"></div>
+    </header>
+    <div id="container">
+        <div class="sliding-box"></div>
+        <div class="fixed-box"><img src="./images/mesh.png"></div>
+        <div id="who-box">
+            <a href="#contact-box"><button id="get-btn">Get In Touch</button></a>
+        </div>
+        <!-- card starts -->
+        <div id="rel-contain">
+            <div id="card-container" data-offset="2">
+                <div class="pg">
+                    <img src="./images/virinder_draft2.png">
+                </div>
+                <div id="card">
+                    <div class="shine"></div>
+                    <div class="text-block">
+                        <h1>VIRINDERPAUL SINGH</h1>
+                        <h3>Producer/Director</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dicta placeat sit
+                            praesentium rerum obcaecati animi ipsa inventore numquam possimus maiores, laudantium
+                            asperiores facere tempore dignissimos dolorum, laboriosam quidem quas!
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- card ends -->
+
+        <!-- contact form -->
+        <div class="contact-container" id="contact-box">
+            <form id="contact" action="" method="post">
+                <h3>Quick Contact</h3>
+                <fieldset>
+                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+            </form>
+
+
+        </div>
+        <footer>
+            <nav id="social-box">
+                <ul>
+                    <a href="https://www.imdb.com/name/nm5661409/?ref_=nmbio_ql">
+                        <li id="imdb-icon" class="foot-logos"><img src="./images/imdb.png"></li>
+                    </a>
+                    <a href="https://www.instagram.com/versatile_pictures/?hl=en">
+                        <li id="insta-icon" class="foot-logos"><img src="./images/instagram.png"></li>
+                    </a>
+                    <a
+                        href="https://www.facebook.com/VersatilePictures/?eid=ARCM1_uAUqdGQwi1FtaxBcFHHvH0QPLSBBIqCz3N0z_DJO2Q0jjQvRIav7HbyFST32km57ggArkgwtm6">
+                        <li id="facebook-icon" class="foot-logos"><img src="./images/facebook.png"></li>
+                    </a>
+                    <a href="#">
+                        <li id="twitter-icon" class="foot-logos"><img src="./images/twitter.png"></li>
+                    </a>
+                </ul>
+                </ul>
+            </nav>
+            <p class="">Copyright © 2020 Versatile Pictures. All
+                rights reserved.&nbsp; |&nbsp; Designed by <a href="#" target="_blank">Gurneet Kaur</a></p>
+        </footer>
+    </div>
+    <!-- contact form -->
+
+</body>
+
+</html>
