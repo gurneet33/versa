@@ -407,7 +407,7 @@ color: #fff;
         height: 200px;
     }
     #who-box button{
-        margin-top: 50px;
+        margin-top: 22%;
     }
     /* header{
         display:flex;
@@ -426,12 +426,12 @@ color: #fff;
     
 
 }
-    /* #card-container{
-    
-} */
+    #card-container{
+    top: 36%;
+}
 .pg{
-    top:50%;
-    left:-30px;
+    top:60%;
+    left:22%;
    
     /* display: none; */
 }
@@ -439,6 +439,11 @@ color: #fff;
     height: 100px;
 }
 .text-block{
-    left: 28%;
+    padding: 0 10px;
+    left: 22%;
+    width: 85%;
+}
+#card .text-block h1{
+    font-size: 1.3em;
 }
 }
