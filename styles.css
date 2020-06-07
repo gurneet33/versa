@@ -57,7 +57,7 @@ body{
     display: inline-block;
     text-decoration: none;
     padding: 0 10px;
-    line-height: 80px;
+    line-height: 75px;
     height: 80px;
     color: #fff;
     word-wrap: no-wrap;
@@ -89,6 +89,7 @@ body{
     padding-left: 0;
     margin: 0;
     list-style: none;
+    text-transform: uppercase;
   }
   .menu__item {
     float: left;
@@ -106,7 +107,7 @@ body{
     transition: all .3s ease;
   }
   .menu__link:hover, .menu__link:focus {
-    background: #09f;
+    background: #777;
     color: #fff;
   }
   @media (min-width: 768px){
@@ -407,7 +408,7 @@ color: #fff;
         height: 200px;
     }
     #who-box button{
-        margin-top: 50px;
+        margin-top: 22%;
     }
     /* header{
         display:flex;
@@ -426,12 +427,12 @@ color: #fff;
     
 
 }
-    /* #card-container{
-    
-} */
+    #card-container{
+    top: 36%;
+}
 .pg{
-    top:50%;
-    left:-30px;
+    top:60%;
+    left:22%;
    
     /* display: none; */
 }
@@ -439,6 +440,11 @@ color: #fff;
     height: 100px;
 }
 .text-block{
-    left: 28%;
+    padding: 0 10px;
+    left: 22%;
+    width: 85%;
+}
+#card .text-block h1{
+    font-size: 1.3em;
 }
 }
