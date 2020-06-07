@@ -57,7 +57,7 @@ body{
     display: inline-block;
     text-decoration: none;
     padding: 0 10px;
-    line-height: 80px;
+    line-height: 75px;
     height: 80px;
     color: #fff;
     word-wrap: no-wrap;
@@ -89,6 +89,7 @@ body{
     padding-left: 0;
     margin: 0;
     list-style: none;
+    text-transform: uppercase;
   }
   .menu__item {
     float: left;
@@ -106,7 +107,7 @@ body{
     transition: all .3s ease;
   }
   .menu__link:hover, .menu__link:focus {
-    background: #09f;
+    background: #777;
     color: #fff;
   }
   @media (min-width: 768px){
