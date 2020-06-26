@@ -15,7 +15,7 @@ body{
     width: 1.2em;
 }
  .l-header a {
-    color:black;
+    color:#f96;
   }
  .l-header a:hover {
     color: #eee;
@@ -172,7 +172,7 @@ body{
     padding: 0 10px;
   }
   .l-header a.logo__link {
-    color: white;
+    color:#f96;
 }
 .l-header a.logo__link:hover {
     color: #777;
@@ -291,7 +291,8 @@ z-index: 1;
 #contact {
 	background:#d5e1e8;
 	padding:25px;
-	margin:50px 0;
+  margin:50px 0;
+  margin-bottom: 25px;
 }
 
 #contact h3 {
@@ -375,6 +376,18 @@ color: #fff;
  color:#888;
 }
 
+.contact-icons a{
+  display: flex;
+  justify-content: center;
+  margin-bottom:12px ;
+  text-decoration: none;
+  color: black;
+}
+.contact-icons i{
+margin-right:10px;
+color: #f96;
+}
+
 /* contact form ends */
 /* footer starts */
 footer nav li{
@@ -442,3 +455,4 @@ footer li.foot-logos img{
     font-size: 1.3em;
 }
 }
+
