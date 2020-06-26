@@ -70,27 +70,39 @@
 
         <!-- contact form -->
         <div class="contact-container" id="contact-box">
-            <form id="contact" action="" method="post">
+            <form id="contact" action="contact-form.php" method="post">
                 <h3>Quick Contact</h3>
                 <fieldset>
-                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                    <input placeholder="Your name" name="name" type="text" tabindex="1" required autofocus>
                 </fieldset>
                 <fieldset>
-                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                    <input placeholder="Your Email Address" name="email" type="email" tabindex="2" required>
                 </fieldset>
                 <fieldset>
-                    <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                    <input placeholder="Your Phone Number" name="phone" type="tel" tabindex="3" required>
                 </fieldset>
                 <fieldset>
-                    <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                    <textarea placeholder="Type your Message Here...." name="textArea" tabindex="5" required></textarea>
                 </fieldset>
                 <fieldset>
                     <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
                 </fieldset>
             </form>
+            <div class="contact-icons"><a href="mailto:gurneet.me@gmail.com"><i class="fa fa-envelope"
+                        aria-hidden="true"></i>
+                    <p>vsingh@versatilepictures.ca</p>
+                </a>
+            </div>
+            <div class="contact-icons"><a href="tel:6477003055"><i class="fa fa-phone" aria-hidden="true"></i>
+                    <p>647-700-3055</p>
+                </a>
+                <div></div>
+            </div>
 
-
+            <!-- contact form -->
         </div>
+        <!-- extra contact form -->
+
         <footer>
             <nav id="social-box">
                 <ul>
@@ -104,7 +116,7 @@
                         href="https://www.facebook.com/VersatilePictures/?eid=ARCM1_uAUqdGQwi1FtaxBcFHHvH0QPLSBBIqCz3N0z_DJO2Q0jjQvRIav7HbyFST32km57ggArkgwtm6">
                         <li id="facebook-icon" class="foot-logos"><img src="./images/facebook.png"></li>
                     </a>
-                    <a href="#">
+                    <a href=" https://twitter.com/VersPicsSync?s=09">
                         <li id="twitter-icon" class="foot-logos"><img src="./images/twitter.png"></li>
                     </a>
                 </ul>
@@ -114,7 +126,7 @@
                 rights reserved.&nbsp; |&nbsp; Designed by <a href="#" target="_blank">Gurneet Kaur</a></p>
         </footer>
     </div>
-    <!-- contact form -->
+
 
 </body>
 
