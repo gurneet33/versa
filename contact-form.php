@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $phone = $_post['phone']
 $msg = $_POST['textArea'];
 
-$email_from = 'yatra55@gmail.com';
+// $email_from = 'yatra55@gmail.com';
 $email_subject = 'Versatile pictures inquiry';
 $email_body = "User Name : $name.\n".
                 "User Email : $email.\n".
